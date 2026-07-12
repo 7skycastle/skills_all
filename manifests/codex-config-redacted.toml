@@ -1,0 +1,49 @@
+﻿[marketplaces.openai-bundled]
+last_updated = "2026-07-12T15:44:40Z"
+source_type = "local"
+source = '\\?\C:\Users\7skyc\.codex\.tmp\bundled-marketplaces\openai-bundled'
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-07-10T17:43:19Z"
+source_type = "local"
+source = '\\?\C:\Users\7skyc\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
+
+[marketplaces.ponytail]
+last_updated = "2026-07-12T18:19:05Z"
+source_type = "git"
+source = "https://github.com/DietrichGebert/ponytail.git"
+ref = "main"
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[plugins."sites@openai-bundled"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."ponytail@ponytail"]
+enabled = true
+
+[features]
+js_repl = false
+
+[projects.'c:\users\7skyc\desktop\codex\product-system']
+trust_level = "trusted"
+

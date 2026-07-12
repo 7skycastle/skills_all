@@ -1,0 +1,4 @@
+interface:
+  display_name: "KwanSang Finish Deploy"
+  short_description: "Push and redeploy KwanSang on wrap-up."
+  default_prompt: "Use this skill to finish work on the KwanSang repo by ensuring the desired commit exists, pushing the current branch, redeploying on Vercel, and reporting the deployment result."

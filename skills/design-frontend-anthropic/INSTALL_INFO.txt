@@ -1,0 +1,5 @@
+﻿source_repo=https://github.com/anthropics/skills
+original_skill=frontend-design
+installed_name=design-frontend-anthropic
+installed_at=2026-07-12T03:47:05.0048197+09:00
+priority=1

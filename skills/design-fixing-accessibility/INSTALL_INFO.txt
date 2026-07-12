@@ -1,0 +1,5 @@
+﻿source_repo=https://github.com/ibelick/ui-skills
+original_skill=fixing-accessibility
+installed_name=design-fixing-accessibility
+installed_at=2026-07-12T03:47:05.0304867+09:00
+priority=3

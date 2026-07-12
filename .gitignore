@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Local scratch
+tmp/
+
+# Keep this repo declarative, not a runtime backup
+logs/
+sessions/
+sqlite/
+cache/

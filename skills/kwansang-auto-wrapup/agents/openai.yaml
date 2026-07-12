@@ -1,0 +1,4 @@
+interface:
+  display_name: "KwanSang Auto Wrapup"
+  short_description: "Verify, push, and redeploy KwanSang work cleanly."
+  default_prompt: "Use $kwansang-auto-wrapup to finish the current KwanSang session with checks, git push, and redeploy."

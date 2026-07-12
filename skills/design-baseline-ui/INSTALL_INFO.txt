@@ -1,0 +1,5 @@
+﻿source_repo=https://github.com/ibelick/ui-skills
+original_skill=baseline-ui
+installed_name=design-baseline-ui
+installed_at=2026-07-12T03:47:05.0244864+09:00
+priority=2

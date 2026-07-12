@@ -1,0 +1,4 @@
+interface:
+  display_name: "Finish Deploy"
+  short_description: "Push main, redeploy Vercel, and verify production."
+  default_prompt: "Use $finish-deploy to push main, redeploy production, and run post-deploy checks."

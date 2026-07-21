@@ -1,15 +1,16 @@
-﻿[marketplaces.openai-bundled]
-last_updated = "2026-07-12T15:44:40Z"
+[marketplaces.openai-bundled]
+last_updated = "2026-07-21T15:13:06Z"
 source_type = "local"
-source = '\\?\C:\Users\7skyc\.codex\.tmp\bundled-marketplaces\openai-bundled'
+source = "REDACTED_LOCAL_BUNDLED_MARKETPLACE"
 
 [marketplaces.openai-primary-runtime]
-last_updated = "2026-07-10T17:43:19Z"
+last_updated = "2026-07-16T14:43:31Z"
 source_type = "local"
-source = '\\?\C:\Users\7skyc\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
+source = "REDACTED_LOCAL_PRIMARY_RUNTIME_MARKETPLACE"
 
 [marketplaces.ponytail]
-last_updated = "2026-07-12T18:19:05Z"
+last_updated = "2026-07-16T14:16:33Z"
+last_revision = "16f29800fd2681bdf24f3eb4ccffe38be3baec6b"
 source_type = "git"
 source = "https://github.com/DietrichGebert/ponytail.git"
 ref = "main"
@@ -35,15 +36,14 @@ enabled = true
 [plugins."visualize@openai-bundled"]
 enabled = true
 
-[plugins."browser@openai-bundled"]
-enabled = true
-
 [plugins."ponytail@ponytail"]
 enabled = true
 
 [features]
 js_repl = false
 
+[mcp_servers.codebase-memory-mcp]
+command = "C:/Users/7skyc/.local/bin/codebase-memory-mcp.exe"
+
 [projects.'c:\users\7skyc\desktop\codex\product-system']
 trust_level = "trusted"
-
